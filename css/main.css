@@ -1,0 +1,104 @@
+html{
+  border-left: 12px solid #5e7f79;
+  border-right: 12px solid #5e7f79;
+}
+
+/* Formatting of overall website */
+body {
+  background-color: #fffff8;
+  margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+  min-width: 400px;
+  max-width: 800px;
+	height: 100%;
+}
+
+/* One more Sticky Footer try */
+.container{
+	min-height: calc(100vh - 150px);
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
+	height: 50px;
+}
+
+/* Link formatting information */
+a {
+  text-decoration: none;
+	background: -webkit-linear-gradient(#FCFCFC, #FCFCFC), -webkit-linear-gradient(#FCFCFC,#FCFCFC), -webkit-linear-gradient(#CCC, #CCC);
+  background: linear-gradient(#FCFCFC, #FCFCFC), linear-gradient(#FCFCFC,#FCFCFC), linear-gradient(#CCC, #CCC);
+  -webkit-background-size: 1px 4px;
+  -moz-background-size: 1px 4px;
+  background-size: 1px 4px;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-position: 0% 95%; 
+	color: #333;
+
+}
+a:hover {
+  text-decoration: underline;
+  color: #2d9be0;
+}
+
+/* Main text formatting information */
+h1{
+  font-size: 2.5em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+
+h2{
+	font-size: 2.0em;
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+
+p {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  max-width: 90%;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  color: #333;
+}
+
+/* Bullet formatting information */
+
+ul{
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-size: 1.4em;
+  line-height: 1.5em;	
+	color: #333;
+  list-style: disc;
+}
+
+ol{
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+	font-size: 1.4em;
+	line-height: 1.5em;
+	color: #333;
+}
+
+/* Table formatting information */
+table {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+pre{
+	font-size: 1.4em;
+	overflow: auto;
+	background-color: #f9f9fa;
+	border: 1px solid #aaa;
+}
